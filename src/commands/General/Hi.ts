@@ -24,7 +24,7 @@ export default class Command extends BaseCommand {
         let star = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: star }, MessageType.video, {
             mimetype: Mimetype.gif,
-            caption: `Helloo ${M.sender.username}, its me Star. Im am always there for your *.help* \n` }
+            caption: `Helloo ${M.sender.username}, Hi i am ❤♡ R È M ♡❤ I am always here to *.help* \n` }
         )
     }
 }
